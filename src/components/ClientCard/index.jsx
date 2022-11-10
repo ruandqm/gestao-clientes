@@ -1,5 +1,6 @@
 import React from "react";
 import "./index.scss"
+import edit from "./assets/img/edit.svg"
 
 export default function ClientCard() {
     return (
@@ -11,7 +12,7 @@ export default function ClientCard() {
 
             <span>mariacr@gmail.com</span>
             <span>(85) 240 - 3029</span>
-            <img src="../../src/assets/img/edit.svg" alt="editar" />
+            <img src={edit} alt="editar" />
             <button className='btn btn-success rounded-button'>Conectar</button>
         </div>
     )
