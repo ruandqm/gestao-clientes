@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import './App.scss'
 import Navbar from './components/Navbar'
 import ClientCard from './components/ClientCard'
@@ -29,7 +28,7 @@ function App() {
                     23
                   </div>
                   <div className="img-vector">
-                    <img src="../../src/assets/img/person.svg" alt="" width="130" height="100" align="right" />
+                    <img src="./assets/img/person.svg" alt="" width="130" height="100" align="right" />
                   </div>
                 </article>
                 <article className="client-infos rounded me-3 mb-3 p-3">
@@ -38,7 +37,7 @@ function App() {
                   <div className="circle">
                     43
                   </div>
-                  <img className='img-vector' src="../../src/assets/img/person.svg" alt="" width="130" height="100" align="right" />
+                  <img className='img-vector' src="./assets/img/person.svg" alt="" width="130" height="100" align="right" />
                 </article>
                 <article className="client-infos rounded me-3 mb-3 p-3">
                   <h4 className='fw-6'>Ano</h4>
@@ -46,7 +45,7 @@ function App() {
                   <div className="circle red">
                     400
                   </div>
-                  <img className='img-vector' src="../../src/assets/img/personRed.svg" alt="" width="130" height="100" align="right" />
+                  <img className='img-vector' src="./assets/img/personRed.svg" alt="" width="130" height="100" align="right" />
                 </article>
               </div>
             </section>
@@ -55,12 +54,12 @@ function App() {
               <div className="topBar sectionBar">
                 <div className="headerBar d-flex justify-content-between">
                   <div className="table-icon d-flex align-items-center">
-                    <img src="../../src/assets/img/person_square.svg" alt="clientes" />
+                    <img src="./assets/img/person_square.svg" alt="clientes" />
                     <span>Clientes</span>
                   </div>
 
                   <div className="links">
-                    <img src="../../src/assets/img/external-link.svg" alt="link externo" className="external-link me-4" />
+                    <img src="./assets/img/external-link.svg" alt="link externo" className="external-link me-4" />
                     <button className='btn btn-success rounded-button'>Adicionar Clientes</button>
                   </div>
 
@@ -70,7 +69,7 @@ function App() {
               <div className="functionsBar d-flex justify-content-between sectionBar">
                 <span className='totalClients'>678<br></br>Cadastrados</span>
                 <div className="searchClients form-control">
-                  <img src="../../src/assets/img/search.svg" alt="" />
+                  <img src="./assets/img/search.svg" alt="" />
                   <input type="text" placeholder='Pesquise Clientes' />
 
                 </div>
