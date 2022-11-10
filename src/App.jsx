@@ -4,7 +4,6 @@ import Navbar from './components/Navbar'
 import ClientCard from './components/ClientCard'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div className="App">
