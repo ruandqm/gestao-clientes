@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(241, 241, 241);
+}
+
+.rounded {
+  border-radius: 1.8em !important;
+}
+
+.sm-rounded-button {
+  border-radius: 0.8em;
+}
+
+.rounded-button {
+  border-radius: 1em;
+}
+
+.btn-success {
+  background-color: rgb(10, 204, 10) !important;
+}
+
+.fw-6 {
+  font-weight: 600;
+}
+
+.banner {
+  width: 100%;
+  height: 13em;
+  background-image: url(../src/assets/img/effect01.png);
+  background-size: cover;
+
+  .bannerText {
+    color: #fff;
+    font-family: 'Sora', sans-serif;
+
+    h1 {
+      font-weight: 600 !important;
+    }
+  }
+}
+
+
+
+.new-clientes-infos {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.client-infos {
+  background-color: #fff;
+  color: #000;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.055);
+  width: 32%;
+  height: 14em;
+
+  .circle {
+    background-color: rgb(10, 204, 10);
+    font-size: 1.8em;
+    font-weight: 600;
+    text-align: center;
+    padding: 0.5em 0;
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 50%;
+    position: relative;
+    top: 2.3em;
+  }
+
+  .red {
+    background-color: #f00 !important;
+  }
+}
+
+.img-vector {
+  position: relative;
+  top: -1.5em;
+}
+
+.clients {
+  color: rgb(10, 204, 10);
+  width: 100%;
+  border: solid 0.2em rgb(165, 165, 165);
+
+  .sectionBar {
+    padding: 1.2em 3em 1.2em 3em !important;
+  }
+
+  .topBar {
+    border-bottom: solid 0.2em rgb(165, 165, 165);
+    border-radius: 1em 1em 0 0;
+  }
+
+  .functionsBar {
+    border-bottom: solid 0.2em rgb(165, 165, 165);
+    padding: 1.5em;
+
+    .totalClients {
+      color: #000;
+      font-weight: 700;
+    }
+
+    .searchClients {
+      width: 20em;
+      height: 3em;
+      display: flex;
+      padding: 0.7em;
+      border-radius: 1.8em;
+    }
+
+    .searchClients>input {
+      margin-left: 1em;
+      width: 90%;
+      height: 100%;
+      outline: 0;
+      border: none;
+    }
+
+    .filterSettings {
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      color: #000;
+
+      ul {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+        li {
+          margin-left: 1em;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1047px) {
+  .new-clientes-infos {
+
+    .client-infos {
+      width: 90%;
+      margin-right: 0 !important;
+    }
+  }
+}

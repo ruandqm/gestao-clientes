@@ -1,0 +1,18 @@
+body {
+    font-family: 'Sora', sans-serif;
+}
+
+.navbar {
+    background-color: white !important;
+    padding: 0;
+    font-weight: 800;
+
+    .user-description {
+        height: 3.4em;
+
+        .user-type {
+            font-size: 0.6em;
+            text-transform: uppercase;
+        }
+    }
+}
